@@ -1,0 +1,94 @@
+body {
+    background-color: #20231f;
+    color: #BAE1ED;
+    font-size: 20px;
+}
+.row{
+    margin: 0px;
+}
+.jumbotron {
+    padding-top: 35px;
+    background-color: transparent;
+}
+.row> h1 {
+    padding-bottom: 20px;
+    font-family: serif;
+}
+.small-letters{
+    font-size: 70%;
+}
+.container-fluid {
+    margin-top: 15px;
+    padding: 0px;
+}
+h1,
+h3,
+p {
+    font-family: 'Lato', sans-serif;
+    color: #333;
+    color: #BAE1ED;
+}
+.random-article {
+    font-size: 15px;
+    color: white;
+    background-color: #44619D;
+    border: none;
+}
+.random-article:hover,
+.random-article:active {
+    background-color: transparent;
+    border: 1px solid #BAE1ED;
+    color: #BAE1ED;
+}
+a {
+    text-decoration: none !important;
+}
+a:hover {
+    color: #333;
+}
+.input-group-addon {
+    background-color: #44619D;
+    color: white;
+    cursor: pointer;
+}
+#results{
+    margin-top: 20px;
+}
+.result-box {
+    padding-right: 20px;
+    padding-left: 20px;
+    border: 7px solid grey;
+    border-radius: 1px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+.result-box>p{
+    color: white;
+}
+.result-box:hover {
+    background-color: #000000;
+    border: 7px solid #BAE1ED;
+}
+.search-box {
+    margin-bottom: 3px;
+}
+.result-box h3{
+    margin-top: 12px;
+}
+@media screen and (max-width: 768px) {
+    .row> h1 {
+        font-size: 300%;
+    }
+    .jumbotron{
+        padding-top: 0px;
+    }
+}
+@media screen and (max-width: 480px) {
+    body{
+        font-size: 14px;
+    }
+    .result-box h3{
+        margin-top: 10px;
+    }
+}
